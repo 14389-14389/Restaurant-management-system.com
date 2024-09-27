@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-rXOtnRExRUd0J2wBr1zvJnZ5zVxlzRHjF/J2ZMIel0zBYsRDOzP91RMmUsoUy5kP" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 bg bg_text">
+                <div class="text-width">
+                    <span class="quote-head">Hospitality:</span>   
+                    "Making Your guests <br>Feel like they're at home,even if you<br> wish they were.Making your guest feel at home far from home."
+                </div>
+            </div>
+            <div class="col-4">
+                <h1 class="mt-1 mb-3 top text-bolder text_signup"><u>REGISTER</u></h1>
+                <form name="register" action="sign up.php">
+                    <div class="form-group">
+                        <label for="first_name" class="text">First Name</label>
+                        <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="Enter your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name" class="text">Last Name</label>
+                        <input type="text" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="Enter your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="text">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                        <small id="emailHelp" class="form-text text-muted mb-4">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="text">User Name</label>
+                        <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Choose a username">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="text">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                    </div>
+                    <small class="text-muted mb-5">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</small>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="submit" class="btn btn-block mt-5 text-bold btn-grad text" data-toggle="modal" data-target="#staticBackdrop" id="register">Sign Up</button>
+                            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header btn-grad">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Registered</h5>
+                                            <button type="button" class="close" data-dismiss="modal" data-focus="true" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modalText text-success font-weight-bold"></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary signIn">Sign In</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <a href="signin.html" class="btn btn-block mt-5 text-bold btn-grad text-white">Log In</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="mt-5 align">Or Sign Up Using</p>
+                            <p>
+                                <span><i class="fab fa-facebook-f ml-3 fa-fb"></i></span>
+                                <span><i class="fab fa-twitter ml-3 fa-tw"></i></span>
+                                <span><i class="fab fa-google ml-3 fa-go"></i></span>
+                                <span><i class="fab fa-instagram ml-3 fa-i"></i></span>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="signup.js"></script>
+</body>
+</html>
+s
